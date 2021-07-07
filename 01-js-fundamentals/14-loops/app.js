@@ -64,11 +64,11 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
 
 // FOR IN LOOP
 const user = {
-  firstName: 'John', 
+  firstName: 'John',
   lastName: 'Doe',
   age: 40
 }
 
-for(let x in user){
+for (let x in user) {
   console.log(`${x} : ${user[x]}`);
 }

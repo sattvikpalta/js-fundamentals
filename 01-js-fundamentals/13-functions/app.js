@@ -1,6 +1,6 @@
 // FUNCTION DECLARATIONS
 
-function greet(firstName = 'John', lastName = 'Doe'){
+function greet(firstName = 'John', lastName = 'Doe') {
   // if(typeof firstName === 'undefined'){firstName = 'John'}
   // if(typeof lastName === 'undefined'){lastName = 'Doe'}
   //console.log('Hello');
@@ -11,8 +11,8 @@ function greet(firstName = 'John', lastName = 'Doe'){
 
 // FUNCTION EXPRESIONS
 
-const square = function(x = 3){
-  return x*x;
+const square = function (x = 3) {
+  return x * x;
 };
 
 // console.log(square());
@@ -30,15 +30,15 @@ const square = function(x = 3){
 // PROPERTY METHODS
 
 const todo = {
-  add: function(){
+  add: function () {
     console.log('Add todo..');
   },
-  edit: function(id){
+  edit: function (id) {
     console.log(`Edit todo ${id}`);
   }
 }
 
-todo.delete = function(){
+todo.delete = function () {
   console.log('Delete todo...');
 }
 
