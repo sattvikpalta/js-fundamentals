@@ -18,7 +18,7 @@ val += 'Traversy';
 val = 'Hello, my name is ' + firstName + ' and I am ' + age;
 
 // Escaping
-val =  'That\'s awesome, I can\'t wait';
+val = 'That\'s awesome, I can\'t wait';
 
 // Length
 val = firstName.length;
@@ -45,7 +45,7 @@ val = firstName.charAt(firstName.length - 1);
 val = firstName.substring(0, 4);
 
 // slice()
-val = firstName.slice(0,4);
+val = firstName.slice(0, 4);
 val = firstName.slice(-3);
 
 // split()
