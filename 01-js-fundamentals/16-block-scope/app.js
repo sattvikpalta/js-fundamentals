@@ -24,4 +24,5 @@ const c = 3;
 //   console.log(`Loop: ${a}`);
 // }
 
+
 console.log('Global Scope: ', a, b, c);
